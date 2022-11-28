@@ -99,6 +99,7 @@
 		EE1786252934FACF0011EDEF /* SepiaSets */ = {
 			isa = PBXGroup;
 			children = (
+				EE1786562934FE680011EDEF /* PetListing */,
 				EE1786262934FACF0011EDEF /* AppDelegate.swift */,
 				EE1786282934FACF0011EDEF /* SceneDelegate.swift */,
 				EE17862A2934FACF0011EDEF /* ViewController.swift */,
@@ -125,6 +126,45 @@
 				EE1786492934FAD10011EDEF /* SepiaSetsUITestsLaunchTests.swift */,
 			);
 			path = SepiaSetsUITests;
+			sourceTree = "<group>";
+		};
+		EE1786562934FE680011EDEF /* PetListing */ = {
+			isa = PBXGroup;
+			children = (
+				EE17865A2934FEA90011EDEF /* Data */,
+				EE1786592934FEA30011EDEF /* Model */,
+				EE1786582934FE7F0011EDEF /* ViewModel */,
+				EE1786572934FE730011EDEF /* ViewController */,
+			);
+			path = PetListing;
+			sourceTree = "<group>";
+		};
+		EE1786572934FE730011EDEF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		EE1786582934FE7F0011EDEF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EE1786592934FEA30011EDEF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EE17865A2934FEA90011EDEF /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
