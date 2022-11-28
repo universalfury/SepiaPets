@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SafariServices
 
 class PetsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
@@ -14,6 +15,7 @@ class PetsViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "Pet Listing"
         petListingTableView.delegate = self
         petListingTableView.dataSource = self
         let contentCellNib = UINib(nibName: "PetListingTableViewCell", bundle: nil)
@@ -43,6 +45,14 @@ class PetsViewController: UIViewController, UITableViewDelegate, UITableViewData
             return 200
         } else {
             return 100
+        }
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let currentListItem = petsViewModel.petsData[indexPath.item]
+        if let url = URL(string: currentListItem.contentURL ?? "") {
+            let vc = SFSafariViewController(url: url)
+            present(vc, animated: true, completion: nil)
         }
     }
 
