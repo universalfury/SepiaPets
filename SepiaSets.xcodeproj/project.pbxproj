@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE1786272934FACF0011EDEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1786262934FACF0011EDEF /* AppDelegate.swift */; };
+		EE1786292934FACF0011EDEF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1786282934FACF0011EDEF /* SceneDelegate.swift */; };
+		EE17862B2934FACF0011EDEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE17862A2934FACF0011EDEF /* ViewController.swift */; };
+		EE17862E2934FACF0011EDEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE17862C2934FACF0011EDEF /* Main.storyboard */; };
+		EE1786302934FAD00011EDEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE17862F2934FAD00011EDEF /* Assets.xcassets */; };
+		EE1786332934FAD00011EDEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE1786312934FAD00011EDEF /* LaunchScreen.storyboard */; };
+		EE17863E2934FAD10011EDEF /* SepiaSetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE17863D2934FAD10011EDEF /* SepiaSetsTests.swift */; };
+		EE1786482934FAD10011EDEF /* SepiaSetsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1786472934FAD10011EDEF /* SepiaSetsUITests.swift */; };
+		EE17864A2934FAD10011EDEF /* SepiaSetsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1786492934FAD10011EDEF /* SepiaSetsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE17863A2934FAD10011EDEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE17861B2934FACF0011EDEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE1786222934FACF0011EDEF;
+			remoteInfo = SepiaSets;
+		};
+		EE1786442934FAD10011EDEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE17861B2934FACF0011EDEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE1786222934FACF0011EDEF;
+			remoteInfo = SepiaSets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE1786232934FACF0011EDEF /* SepiaSets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SepiaSets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE1786262934FACF0011EDEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE1786282934FACF0011EDEF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EE17862A2934FACF0011EDEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE17862D2934FACF0011EDEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE17862F2934FAD00011EDEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE1786322934FAD00011EDEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE1786342934FAD00011EDEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE1786392934FAD10011EDEF /* SepiaSetsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SepiaSetsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE17863D2934FAD10011EDEF /* SepiaSetsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepiaSetsTests.swift; sourceTree = "<group>"; };
+		EE1786432934FAD10011EDEF /* SepiaSetsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SepiaSetsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE1786472934FAD10011EDEF /* SepiaSetsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepiaSetsUITests.swift; sourceTree = "<group>"; };
+		EE1786492934FAD10011EDEF /* SepiaSetsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepiaSetsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE1786202934FACF0011EDEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE1786362934FAD10011EDEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE1786402934FAD10011EDEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE17861A2934FACF0011EDEF = {
+			isa = PBXGroup;
+			children = (
+				EE1786252934FACF0011EDEF /* SepiaSets */,
+				EE17863C2934FAD10011EDEF /* SepiaSetsTests */,
+				EE1786462934FAD10011EDEF /* SepiaSetsUITests */,
+				EE1786242934FACF0011EDEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE1786242934FACF0011EDEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE1786232934FACF0011EDEF /* SepiaSets.app */,
+				EE1786392934FAD10011EDEF /* SepiaSetsTests.xctest */,
+				EE1786432934FAD10011EDEF /* SepiaSetsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE1786252934FACF0011EDEF /* SepiaSets */ = {
+			isa = PBXGroup;
+			children = (
+				EE1786262934FACF0011EDEF /* AppDelegate.swift */,
+				EE1786282934FACF0011EDEF /* SceneDelegate.swift */,
+				EE17862A2934FACF0011EDEF /* ViewController.swift */,
+				EE17862C2934FACF0011EDEF /* Main.storyboard */,
+				EE17862F2934FAD00011EDEF /* Assets.xcassets */,
+				EE1786312934FAD00011EDEF /* LaunchScreen.storyboard */,
+				EE1786342934FAD00011EDEF /* Info.plist */,
+			);
+			path = SepiaSets;
+			sourceTree = "<group>";
+		};
+		EE17863C2934FAD10011EDEF /* SepiaSetsTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE17863D2934FAD10011EDEF /* SepiaSetsTests.swift */,
+			);
+			path = SepiaSetsTests;
+			sourceTree = "<group>";
+		};
+		EE1786462934FAD10011EDEF /* SepiaSetsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE1786472934FAD10011EDEF /* SepiaSetsUITests.swift */,
+				EE1786492934FAD10011EDEF /* SepiaSetsUITestsLaunchTests.swift */,
+			);
+			path = SepiaSetsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE1786222934FACF0011EDEF /* SepiaSets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE17864D2934FAD10011EDEF /* Build configuration list for PBXNativeTarget "SepiaSets" */;
+			buildPhases = (
+				EE17861F2934FACF0011EDEF /* Sources */,
+				EE1786202934FACF0011EDEF /* Frameworks */,
+				EE1786212934FACF0011EDEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SepiaSets;
+			productName = SepiaSets;
+			productReference = EE1786232934FACF0011EDEF /* SepiaSets.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE1786382934FAD10011EDEF /* SepiaSetsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE1786502934FAD10011EDEF /* Build configuration list for PBXNativeTarget "SepiaSetsTests" */;
+			buildPhases = (
+				EE1786352934FAD10011EDEF /* Sources */,
+				EE1786362934FAD10011EDEF /* Frameworks */,
+				EE1786372934FAD10011EDEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE17863B2934FAD10011EDEF /* PBXTargetDependency */,
+			);
+			name = SepiaSetsTests;
+			productName = SepiaSetsTests;
+			productReference = EE1786392934FAD10011EDEF /* SepiaSetsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE1786422934FAD10011EDEF /* SepiaSetsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE1786532934FAD10011EDEF /* Build configuration list for PBXNativeTarget "SepiaSetsUITests" */;
+			buildPhases = (
+				EE17863F2934FAD10011EDEF /* Sources */,
+				EE1786402934FAD10011EDEF /* Frameworks */,
+				EE1786412934FAD10011EDEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE1786452934FAD10011EDEF /* PBXTargetDependency */,
+			);
+			name = SepiaSetsUITests;
+			productName = SepiaSetsUITests;
+			productReference = EE1786432934FAD10011EDEF /* SepiaSetsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE17861B2934FACF0011EDEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					EE1786222934FACF0011EDEF = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					EE1786382934FAD10011EDEF = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = EE1786222934FACF0011EDEF;
+					};
+					EE1786422934FAD10011EDEF = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = EE1786222934FACF0011EDEF;
+					};
+				};
+			};
+			buildConfigurationList = EE17861E2934FACF0011EDEF /* Build configuration list for PBXProject "SepiaSets" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE17861A2934FACF0011EDEF;
+			productRefGroup = EE1786242934FACF0011EDEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE1786222934FACF0011EDEF /* SepiaSets */,
+				EE1786382934FAD10011EDEF /* SepiaSetsTests */,
+				EE1786422934FAD10011EDEF /* SepiaSetsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE1786212934FACF0011EDEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE1786332934FAD00011EDEF /* LaunchScreen.storyboard in Resources */,
+				EE1786302934FAD00011EDEF /* Assets.xcassets in Resources */,
+				EE17862E2934FACF0011EDEF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE1786372934FAD10011EDEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE1786412934FAD10011EDEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE17861F2934FACF0011EDEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE17862B2934FACF0011EDEF /* ViewController.swift in Sources */,
+				EE1786272934FACF0011EDEF /* AppDelegate.swift in Sources */,
+				EE1786292934FACF0011EDEF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE1786352934FAD10011EDEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE17863E2934FAD10011EDEF /* SepiaSetsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE17863F2934FAD10011EDEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE17864A2934FAD10011EDEF /* SepiaSetsUITestsLaunchTests.swift in Sources */,
+				EE1786482934FAD10011EDEF /* SepiaSetsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE17863B2934FAD10011EDEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE1786222934FACF0011EDEF /* SepiaSets */;
+			targetProxy = EE17863A2934FAD10011EDEF /* PBXContainerItemProxy */;
+		};
+		EE1786452934FAD10011EDEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE1786222934FACF0011EDEF /* SepiaSets */;
+			targetProxy = EE1786442934FAD10011EDEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE17862C2934FACF0011EDEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE17862D2934FACF0011EDEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE1786312934FAD00011EDEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE1786322934FAD00011EDEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE17864B2934FAD10011EDEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE17864C2934FAD10011EDEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE17864E2934FAD10011EDEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J5KY49ZDED;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SepiaSets/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.skyracing.SepiaSets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE17864F2934FAD10011EDEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J5KY49ZDED;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SepiaSets/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.skyracing.SepiaSets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE1786512934FAD10011EDEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J5KY49ZDED;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.skyracing.SepiaSetsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SepiaSets.app/SepiaSets";
+			};
+			name = Debug;
+		};
+		EE1786522934FAD10011EDEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J5KY49ZDED;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.skyracing.SepiaSetsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SepiaSets.app/SepiaSets";
+			};
+			name = Release;
+		};
+		EE1786542934FAD10011EDEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J5KY49ZDED;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.skyracing.SepiaSetsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SepiaSets;
+			};
+			name = Debug;
+		};
+		EE1786552934FAD10011EDEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J5KY49ZDED;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.skyracing.SepiaSetsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SepiaSets;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE17861E2934FACF0011EDEF /* Build configuration list for PBXProject "SepiaSets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE17864B2934FAD10011EDEF /* Debug */,
+				EE17864C2934FAD10011EDEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE17864D2934FAD10011EDEF /* Build configuration list for PBXNativeTarget "SepiaSets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE17864E2934FAD10011EDEF /* Debug */,
+				EE17864F2934FAD10011EDEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE1786502934FAD10011EDEF /* Build configuration list for PBXNativeTarget "SepiaSetsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE1786512934FAD10011EDEF /* Debug */,
+				EE1786522934FAD10011EDEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE1786532934FAD10011EDEF /* Build configuration list for PBXNativeTarget "SepiaSetsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE1786542934FAD10011EDEF /* Debug */,
+				EE1786552934FAD10011EDEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE17861B2934FACF0011EDEF /* Project object */;
+}
