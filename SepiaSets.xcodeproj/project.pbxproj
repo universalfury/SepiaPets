@@ -16,6 +16,18 @@
 		EE17863E2934FAD10011EDEF /* SepiaSetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE17863D2934FAD10011EDEF /* SepiaSetsTests.swift */; };
 		EE1786482934FAD10011EDEF /* SepiaSetsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1786472934FAD10011EDEF /* SepiaSetsUITests.swift */; };
 		EE17864A2934FAD10011EDEF /* SepiaSetsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1786492934FAD10011EDEF /* SepiaSetsUITestsLaunchTests.swift */; };
+		EE17865C2934FF360011EDEF /* pets_list.json in Resources */ = {isa = PBXBuildFile; fileRef = EE17865B2934FF360011EDEF /* pets_list.json */; };
+		EE17865D2934FF360011EDEF /* pets_list.json in Resources */ = {isa = PBXBuildFile; fileRef = EE17865B2934FF360011EDEF /* pets_list.json */; };
+		EE1786622934FF7A0011EDEF /* PetsDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1786612934FF7A0011EDEF /* PetsDataModel.swift */; };
+		EE1786632934FF7A0011EDEF /* PetsDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1786612934FF7A0011EDEF /* PetsDataModel.swift */; };
+		EE178665293500010011EDEF /* PetsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE178664293500010011EDEF /* PetsViewModel.swift */; };
+		EE178666293500010011EDEF /* PetsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE178664293500010011EDEF /* PetsViewModel.swift */; };
+		EE178668293502090011EDEF /* PetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE178667293502090011EDEF /* PetsViewController.swift */; };
+		EE178669293502090011EDEF /* PetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE178667293502090011EDEF /* PetsViewController.swift */; };
+		EE17866D2935045E0011EDEF /* PetListingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE17866B2935045E0011EDEF /* PetListingTableViewCell.swift */; };
+		EE17866E2935045E0011EDEF /* PetListingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE17866B2935045E0011EDEF /* PetListingTableViewCell.swift */; };
+		EE17866F2935045E0011EDEF /* PetListingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE17866C2935045E0011EDEF /* PetListingTableViewCell.xib */; };
+		EE1786702935045E0011EDEF /* PetListingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE17866C2935045E0011EDEF /* PetListingTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +61,12 @@
 		EE1786432934FAD10011EDEF /* SepiaSetsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SepiaSetsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE1786472934FAD10011EDEF /* SepiaSetsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepiaSetsUITests.swift; sourceTree = "<group>"; };
 		EE1786492934FAD10011EDEF /* SepiaSetsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepiaSetsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EE17865B2934FF360011EDEF /* pets_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pets_list.json; path = ../../../../../../Downloads/pets_list.json; sourceTree = "<group>"; };
+		EE1786612934FF7A0011EDEF /* PetsDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsDataModel.swift; sourceTree = "<group>"; };
+		EE178664293500010011EDEF /* PetsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsViewModel.swift; sourceTree = "<group>"; };
+		EE178667293502090011EDEF /* PetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsViewController.swift; sourceTree = "<group>"; };
+		EE17866B2935045E0011EDEF /* PetListingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetListingTableViewCell.swift; sourceTree = "<group>"; };
+		EE17866C2935045E0011EDEF /* PetListingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PetListingTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +149,7 @@
 		EE1786562934FE680011EDEF /* PetListing */ = {
 			isa = PBXGroup;
 			children = (
+				EE17866A293504350011EDEF /* TableViewCell */,
 				EE17865A2934FEA90011EDEF /* Data */,
 				EE1786592934FEA30011EDEF /* Model */,
 				EE1786582934FE7F0011EDEF /* ViewModel */,
@@ -142,6 +161,7 @@
 		EE1786572934FE730011EDEF /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				EE178667293502090011EDEF /* PetsViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -149,6 +169,7 @@
 		EE1786582934FE7F0011EDEF /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				EE178664293500010011EDEF /* PetsViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -156,6 +177,7 @@
 		EE1786592934FEA30011EDEF /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				EE1786612934FF7A0011EDEF /* PetsDataModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -163,8 +185,18 @@
 		EE17865A2934FEA90011EDEF /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				EE17865B2934FF360011EDEF /* pets_list.json */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		EE17866A293504350011EDEF /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				EE17866B2935045E0011EDEF /* PetListingTableViewCell.swift */,
+				EE17866C2935045E0011EDEF /* PetListingTableViewCell.xib */,
+			);
+			path = TableViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +304,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE1786332934FAD00011EDEF /* LaunchScreen.storyboard in Resources */,
+				EE17865C2934FF360011EDEF /* pets_list.json in Resources */,
+				EE17866F2935045E0011EDEF /* PetListingTableViewCell.xib in Resources */,
 				EE1786302934FAD00011EDEF /* Assets.xcassets in Resources */,
 				EE17862E2934FACF0011EDEF /* Main.storyboard in Resources */,
 			);
@@ -281,6 +315,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE1786702935045E0011EDEF /* PetListingTableViewCell.xib in Resources */,
+				EE17865D2934FF360011EDEF /* pets_list.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,7 +335,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE17862B2934FACF0011EDEF /* ViewController.swift in Sources */,
+				EE1786622934FF7A0011EDEF /* PetsDataModel.swift in Sources */,
 				EE1786272934FACF0011EDEF /* AppDelegate.swift in Sources */,
+				EE178665293500010011EDEF /* PetsViewModel.swift in Sources */,
+				EE17866D2935045E0011EDEF /* PetListingTableViewCell.swift in Sources */,
+				EE178668293502090011EDEF /* PetsViewController.swift in Sources */,
 				EE1786292934FACF0011EDEF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,7 +348,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE178666293500010011EDEF /* PetsViewModel.swift in Sources */,
+				EE17866E2935045E0011EDEF /* PetListingTableViewCell.swift in Sources */,
 				EE17863E2934FAD10011EDEF /* SepiaSetsTests.swift in Sources */,
+				EE178669293502090011EDEF /* PetsViewController.swift in Sources */,
+				EE1786632934FF7A0011EDEF /* PetsDataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
