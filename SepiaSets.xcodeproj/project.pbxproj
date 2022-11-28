@@ -28,6 +28,8 @@
 		EE17866E2935045E0011EDEF /* PetListingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE17866B2935045E0011EDEF /* PetListingTableViewCell.swift */; };
 		EE17866F2935045E0011EDEF /* PetListingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE17866C2935045E0011EDEF /* PetListingTableViewCell.xib */; };
 		EE1786702935045E0011EDEF /* PetListingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE17866C2935045E0011EDEF /* PetListingTableViewCell.xib */; };
+		EE17867229350FB30011EDEF /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE17867129350FB30011EDEF /* InitialViewController.swift */; };
+		EE17867329350FB30011EDEF /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE17867129350FB30011EDEF /* InitialViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,7 @@
 		EE178667293502090011EDEF /* PetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsViewController.swift; sourceTree = "<group>"; };
 		EE17866B2935045E0011EDEF /* PetListingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetListingTableViewCell.swift; sourceTree = "<group>"; };
 		EE17866C2935045E0011EDEF /* PetListingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PetListingTableViewCell.xib; sourceTree = "<group>"; };
+		EE17867129350FB30011EDEF /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				EE178667293502090011EDEF /* PetsViewController.swift */,
+				EE17867129350FB30011EDEF /* InitialViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -341,6 +345,7 @@
 				EE17866D2935045E0011EDEF /* PetListingTableViewCell.swift in Sources */,
 				EE178668293502090011EDEF /* PetsViewController.swift in Sources */,
 				EE1786292934FACF0011EDEF /* SceneDelegate.swift in Sources */,
+				EE17867229350FB30011EDEF /* InitialViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +356,7 @@
 				EE178666293500010011EDEF /* PetsViewModel.swift in Sources */,
 				EE17866E2935045E0011EDEF /* PetListingTableViewCell.swift in Sources */,
 				EE17863E2934FAD10011EDEF /* SepiaSetsTests.swift in Sources */,
+				EE17867329350FB30011EDEF /* InitialViewController.swift in Sources */,
 				EE178669293502090011EDEF /* PetsViewController.swift in Sources */,
 				EE1786632934FF7A0011EDEF /* PetsDataModel.swift in Sources */,
 			);

@@ -16,6 +16,8 @@ class PetsViewController: UIViewController, UITableViewDelegate, UITableViewData
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Pet Listing"
+        petsViewModel.setupDataModel()
+        debugPrint(petsViewModel.petsData)
         petListingTableView.delegate = self
         petListingTableView.dataSource = self
         let contentCellNib = UINib(nibName: "PetListingTableViewCell", bundle: nil)
@@ -24,8 +26,6 @@ class PetsViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        petsViewModel.setupDataModel()
-        debugPrint(petsViewModel.petsData)
     }
     
     // MARK: Table View Setup
