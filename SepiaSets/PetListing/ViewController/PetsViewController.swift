@@ -15,9 +15,9 @@ class PetsViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        // In case navigation bar is embeded. 
         self.title = "Pet Listing"
         petsViewModel.setupDataModel()
-        debugPrint(petsViewModel.petsData)
         petListingTableView.delegate = self
         petListingTableView.dataSource = self
         let contentCellNib = UINib(nibName: "PetListingTableViewCell", bundle: nil)
@@ -37,10 +37,11 @@ class PetsViewController: UIViewController, UITableViewDelegate, UITableViewData
         let cell: PetListingTableViewCell? = petListingTableView.dequeueReusableCell(withIdentifier: "PetListingTableViewCell", for: indexPath) as? PetListingTableViewCell
         let currentListItem = petsViewModel.petsData[indexPath.item]
         cell?.setupCell(currentListItem.title ?? "", currentListItem.imageURL ?? "")
-        return cell!
+        return cell ?? UITableViewCell()
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        //The cell height will change on the basis of device to make it dynamic
         if UIDevice.current.userInterfaceIdiom == .pad {
             return 200
         } else {

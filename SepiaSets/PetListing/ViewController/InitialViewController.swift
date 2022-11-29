@@ -20,6 +20,7 @@ class InitialViewController: UIViewController {
         self.setUpAppEntryPoint()
     }
     
+    // This function decides the app entry point based on the current date
     func setUpAppEntryPoint() {
         if shouldAppBeAccessible(Date.now) {
             let listingVC =  self.storyboard?.instantiateViewController(withIdentifier: "PetsViewController") as! PetsViewController
@@ -31,7 +32,12 @@ class InitialViewController: UIViewController {
         }
     }
     
-    private func shouldAppBeAccessible(_ currentDate: Date) -> Bool {
+    ///this functions returns a bool
+    /// - Parameters:
+    ///     - currentDate: current device date object
+    /// - Returns:
+    ///     - Returns true if currentDate is in the required Range else return false
+    func shouldAppBeAccessible(_ currentDate: Date) -> Bool {
         let calendarDate = Calendar.current.dateComponents([.weekday], from: currentDate)
         if calendarDate.weekday == 1 || calendarDate.weekday == 7 {
             return false
